@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
+  const getYear = new Date().getFullYear();
   return (
-    <div className='py-6 bg-slate-800 text-center'>
-        <span className='text-white'>copyright &copy; trifikaralamsah 2023</span>
-    </div>
-  )
-}
+    <React.Fragment>
+      <div className="py-6 bg-gradient-to-r from-cyan-700 to-slate-900 md:bg-slate-800 text-center md:absolute w-full bottom-0">
+        <span className="text-white">
+          Copyright &copy; Tri Fikar Alamsah {getYear}
+        </span>
+      </div>
+    </React.Fragment>
+  );
+};
 
-export default Footer
+export default Footer;

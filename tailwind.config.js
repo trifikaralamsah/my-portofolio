@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['Inter'],
+        inter: ["Inter"],
+        Gochi: ["Gochi Hand", "cursive"],
       },
     },
   },
   plugins: [],
-}
-
+};
