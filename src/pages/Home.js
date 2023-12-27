@@ -18,7 +18,7 @@ const Home = () => {
             }}
           />
         </p>
-        <p className="font-Gochi text-lg text-justify md:text-left">
+        <p className="font-sans text-lg text-justify md:text-left">
           Saya seorang Web Programmer dari Tangerang Selatan, yang berfokus pada
           Frontend Developer. Saat ini, Saya menikmati membangun semuanya dari
           situs app kecil hingga app yang elegan & saya juga merupakan salah
